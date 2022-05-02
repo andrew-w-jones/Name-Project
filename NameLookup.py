@@ -1,11 +1,11 @@
-#!C:\Users\Lords\source\repos\PythonApplication1\PythonApplication1\env\Scripts\python.exe
+#!.\Pythonenv\Scripts\python.exe
 
 import requests
 import os
 import sys
 import json
 try:
-    with open("D:\\Webpages\\Test-Development\\names.json") as names:
+    with open(".\names.json") as names:
         
         # Names being a json file mapping country codes to countries
         nameslist = json.load(names)
