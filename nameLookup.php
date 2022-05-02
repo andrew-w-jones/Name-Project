@@ -14,7 +14,7 @@
 						
 						$usersName = $_POST["name"];
 						
-						$command = escapeshellcmd("/Webpages/Test-Development/Pythonenv/Scripts/python.exe /Webpages/Test-Development/NameLookup.py " . $usersName);
+						$command = escapeshellcmd("/Pythonenv/Scripts/python.exe /NameLookup.py " . $usersName);
 						
 						
 						$output = shell_exec($command);
