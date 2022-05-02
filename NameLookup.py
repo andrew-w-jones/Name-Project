@@ -1,4 +1,5 @@
-#!.\Pythonenv\Scripts\python.exe
+#!C:\python.exe
+# ^^^ Update this line with the path to your python env!
 
 import requests
 import os
