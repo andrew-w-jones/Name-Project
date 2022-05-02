@@ -14,8 +14,8 @@
 						
 						$usersName = $_POST["name"];
 						
-						$command = escapeshellcmd("/Pythonenv/Scripts/python.exe /NameLookup.py " . $usersName);
-						
+						$command = escapeshellcmd("YOUR/PYTHON/LOCATION/python.exe /NameLookup.py " . $usersName);
+						// ^^^ Update this line with your python environment location ^^^
 						
 						$output = shell_exec($command);
 						
